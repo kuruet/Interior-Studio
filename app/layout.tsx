@@ -6,7 +6,11 @@ export const metadata = {
     "Mumbai-based luxury interior design studio crafting premium residential and commercial spaces across India.",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <head>
